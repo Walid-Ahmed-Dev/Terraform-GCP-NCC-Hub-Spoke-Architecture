@@ -50,7 +50,7 @@ This table shows the dependency-ordered infrastructure components and IP interfa
 | 9    | BGP Peer         | NCC peering to Spoke B (tunnel 0)  | NCC             | peer = `.2`   | N/A   | NCC                 | `google_compute_router_peer.ncc_spoke_b_0`      |
 | 10   | BGP Peer         | NCC peering to Spoke B (tunnel 1)  | NCC             | peer = `.2`   | N/A   | NCC                 | `google_compute_router_peer.ncc_spoke_b_1`      |
 
-### 🧠 IP Address Convention
+### IP Address Convention
 
 For each `/30` subnet used for BGP over VPN:
 
@@ -326,7 +326,3 @@ Contributions are welcome! Please follow these conventions:
 * Add descriptive comments and validations
 * Test in a non-production environment before submitting
 
-## Changelog
-
-# v1.0.0
-- initial release
